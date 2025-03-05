@@ -1,0 +1,17 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos personalizados que sobrescriben Bootstrap */
+.btn-primary {
+    @apply bg-primary hover:bg-secondary text-white;
+}
+
+.btn-secondary {
+    @apply bg-secondary hover:bg-primary text-white;
+}
+
+.btn-accent {
+    @apply bg-accent hover:bg-secondary text-white;
+}
