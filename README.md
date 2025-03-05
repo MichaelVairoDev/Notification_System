@@ -64,7 +64,7 @@ _Interfaz de edición para tipos de notificaciones_
 1. **Clonar el repositorio**
 
 ```bash
-git clone <url-del-repositorio>
+git clone https://github.com/MichaelVairoDev/Notification_System.git
 cd Notification_System
 ```
 
